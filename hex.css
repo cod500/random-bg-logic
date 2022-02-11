@@ -1,0 +1,35 @@
+.hex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.hex-div {
+  background-color: #1b6395;
+  min-width: 500px;
+  padding: 15px !important;
+  border-radius: 5px;
+}
+
+.hex-container h2 {
+  color: #fff;
+}
+
+.hex-div {
+  min-height: 75px;
+  margin-top: 50px;
+}
+
+.hex-value {
+  font-size: 32px;
+}
+
+#generate-btn {
+  padding: 10px 25px;
+  margin: 25px 0;
+}
